@@ -1,9 +1,9 @@
-def greeting(name):
-    print("Welcome, " + name)
+def greeting(name, message="Welcome"):
+    print(f"{message}, {name}")
 
 def farewell(name):
     print("Goodbye, " + name)
 
 greeting("Kay")
-greeting("Cameron")
+greeting("Cameron", "Hello")
 farewell("Kay")
